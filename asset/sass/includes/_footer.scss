@@ -1,0 +1,159 @@
+.footer{
+    width: 100%;
+    margin-top: 90px;
+    .footer-container{
+        width: 100%;
+        color: white;
+        background-color: black;
+        .footer-top{
+            width: 80%;
+            margin: auto;
+            padding: 60px;
+            .footer-heading{
+                h1{
+                    font-size: 52px;
+                    font-weight: 500;
+                }
+            }
+            .footer-id{
+                margin-top: 40px;
+                .footer-id1{
+                    width: 100%;
+                    .box{
+                        width: 100%;
+                        padding-right: 30px;
+                        justify-content: center;
+                        align-items: center;
+                        border: none;
+                        input{
+                            border: none;
+                            font-size: 18px;
+                            padding: 10px 20px;
+                        }
+                        a{
+                            color: black;
+                            padding: 5px;
+                            i{
+                                font-size: 25px;
+                                padding: 10px;
+                                color: blacke;
+                                background-color: white;
+                                border-radius: 50%;
+                            }
+                            .fa-facebook-f{
+                                padding: 10px 14px;
+                            }
+                            .fa-linkedin{
+                                padding: 10px 12px;
+                            }
+                            .fa-instagram{
+                                padding: 10px 12px;
+                            }
+                            &:hover{
+                                i{
+                                    transition: 0.5s;
+                                    color: white;
+                                    background-color: $yellow;
+                                }
+                            }
+                        }
+                    }
+                }
+                .footer-id2{
+                    width: 100%;
+                    padding-top: 30px;
+                    .box{
+                        width: 80%;
+                        padding-right: 30px;
+                        input{
+                            border: none;
+                            width: 100%;
+                            font-size: 18px;
+                            padding: 25px 20px;
+                        }
+                    }
+                }
+            }
+            .footer-box{
+                width: 100%;
+                margin-top: 40px;
+                justify-content: space-between;
+                .footer-box1{
+                    width: 100%;
+                    p{
+                        padding: 10px 0px;
+                        font-size: 18px;
+                        i{
+                            font-size: 26px;
+                            padding-right: 15px;
+                        }
+                        &:nth-child(2){
+                            padding-left: 20px;
+                        }
+                    }
+                }
+                .footer-box2{
+                    width: 100%;
+                    border-left: 1px solid white;
+                    padding-left: 15px;
+                    h4{
+                        font-size: 25px;
+                        font-weight: 600;
+                    }
+                    ul{
+                        list-style-type: none;
+                        li{
+                            padding: 5px 0px;
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                i{
+                                    color: white;
+                                    font-size: 12px;
+                                    padding-right: 10px;
+                                }
+                            }
+                            &:hover{
+                                a{
+                                    color: $yellow;
+                                }
+                            }
+                        }
+                    }
+                }
+                .footer-box3{
+                    width: 100%;
+                    padding-left: 15px;
+                    border-left: 1px solid white;
+                    h4{
+                        font-size: 25px;
+                        font-weight: 600;
+                    }
+                    div{
+                        width: 100%;
+                        padding-right: 30px;
+                        padding: 7px 0px;
+                        input{
+                            border: none;
+                            width: 100%;
+                            font-size: 18px;
+                            font-weight: 500;
+                            padding: 10px 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-end{
+            width: 100%;
+            background-color: $yellow; 
+            text-align: center;
+            p{
+                color: white;
+                padding: 20px;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}
